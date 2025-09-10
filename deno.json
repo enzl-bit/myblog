@@ -1,5 +1,5 @@
 {
   "tasks": {
-    "dev": "deno run -A deno run -A https://lume.land/init.ts"
+    "dev": "deno run -A https://lume.land/init.ts"
   }
 }
