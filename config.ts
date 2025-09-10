@@ -1,6 +1,6 @@
-import lume from "https://deno.land/x/lume@v1.20.0/mod.ts";
-import date from "https://deno.land/x/lume@v1.20.0/plugins/date.ts";
-import slugify_urls from "https://deno.land/x/lume@v1.20.0/plugins/slugify_urls.ts";
+import lume from "lume/mod.ts";
+import date from "lume/mod.ts";
+import slugify_urls from "lume/mod.ts";
 
 const site = lume();
 
