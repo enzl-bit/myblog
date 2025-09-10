@@ -1,0 +1,10 @@
+<article class="post-card">
+  {% if post.data.image %}
+    <a class="post-card-image" href="{{ post.data.url }}" style="background-image: url('{{ post.data.image }}');"></a>
+  {% endif %}
+  <div class="post-card-content">
+    <h2><a href="{{ post.data.url }}">{{ post.data.title }}</a></h2>
+    <time datetime="{{ post.data.date }}">{{ post.data.date | date("DD MMMM YYYY") }}</time>
+    <p>{{ post.data.excerpt }}</p>
+  </div>
+</article>
